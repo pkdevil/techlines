@@ -19,7 +19,7 @@ app.use("/api/products", productRoutes);
 const port = 5000;
 
 app.get("/", (req, res) => {
-  res.send("Api is calling...");
+  res.send("Api is callingss...");
 });
 app.listen(port, () => {
   console.log(`server run port on ${port}`);
